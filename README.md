@@ -13,16 +13,16 @@ PHP框架各式各样，有很多出色的快速开发框架。但是，很多�
 
 
 
-**框架需要配置伪静态规则：
+框架需要配置伪静态规则：
 
 Apache
-
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteRule ^(.*)$ index.php/$1 [L] 
-Nginx
 
+
+Nginx
 if (!-d $request_filename){
 	set $rule_0 1$rule_0;
 }
@@ -31,4 +31,4 @@ if (!-f $request_filename){
 }
 if ($rule_0 = "21"){
 	rewrite ^/(.*)$ /index.php/$1 last;
-}**
+}
