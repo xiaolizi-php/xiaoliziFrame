@@ -2,9 +2,7 @@
 
 作者：小李子
 
-<br>
 QQ：2498131909
-
 
 邮箱：xingxuan@xingxuanka.cn
 
